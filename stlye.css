@@ -1,0 +1,78 @@
+body{
+    background-color: burlywood;
+}
+h1{
+    background-color: brown;
+}
+.container{
+    background-color: brown;
+    box-shadow: 2px 2px 5px 10px brown;
+}
+.header{
+    background-image: url("kepek/atlasz.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 600px;
+}
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: #CD6155;
+    padding: 12px 16px;
+}
+li{
+    display: inline;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    padding: 14px 16px;
+}
+li a:hover{
+    background-color: brown;
+    border-radius: 15px;
+    color: black;
+    /*font-weight: bold;*/
+    box-shadow: 4px 4px 5px black;
+}
+.oldal{
+    background-color: burlywood;
+}
+.navbar-brand{
+    background-color: #CD6155;
+    margin: 0px;
+    padding: 9px 16px;
+}
+.navbar-brand:hover{
+    background-color: brown;
+    border-radius: 15px;
+    color:black;
+    font-weight: bold;
+    box-shadow: 8px 8px 10px black;
+}
+.navbar-collapse{
+    background: transparent;
+}
+footer{
+    background-color: darkgray;
+}
+footer p{
+    text-align: center;
+    font-size: 25px;
+}
+#evszam{
+    float: left;
+    padding-left: 8px;
+}
+#osztaly{
+    float: right;
+    padding-right: 8px;
+}
+@media screen and (max-width: 300px) {
+    #evszam,#osztaly{
+        float: none;
+        display: block;
+        padding: 0px;
+    }
+}
