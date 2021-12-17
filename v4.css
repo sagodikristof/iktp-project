@@ -1,0 +1,18 @@
+.alcim{
+    
+text-align: left;
+font-size: 30px;
+color: antiquewhite;
+}
+.képek{
+    float: right;
+    height: 100px;
+    border: 4px solid black;
+    border-radius: 5px;
+ }
+ .h{
+    float: right;
+    height: 250px;
+    border: 4px solid black;
+    border-radius: 5px;
+ }

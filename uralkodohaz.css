@@ -1,0 +1,47 @@
+.ucím{
+    text-align: center;
+    font-size:  60px;
+    color: antiquewhite;
+}
+.ubekezdés{
+    background-color: brown;
+    color: antiquewhite;
+ }
+ .alcim{
+    text-align: left;
+    font-size: 30px;
+    color: antiquewhite;
+ }
+ .képek{
+    float: right;
+    height: 100px;
+    border: 4px solid black;
+    border-radius: 5px; 
+ }
+ 
+ h1{
+     color: antiquewhite;
+ }
+ .ural{
+    height: 300px ;
+    float: right;
+    border: 4px solid black;
+    border-radius: 5px; 
+ }
+ 
+ .footer{
+    border-radius: 15px;
+}
+.mari{
+    float: right;
+    height: 150px;
+    border: 4px solid black;
+    border-radius: 5px; 
+}
+.hedvig{
+    float: right;
+    height: 80px;
+    border: 4px solid black;
+    border-radius: 5px;
+}
+ 
