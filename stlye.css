@@ -39,6 +39,9 @@ li a:hover{
 .oldal{
     background-color: burlywood;
 }
+#fooldal{
+    background-color: burlywood;
+}
 .navbar-brand{
     background-color: #CD6155;
     margin: 0px;
@@ -56,10 +59,13 @@ li a:hover{
 }
 footer{
     background-color: darkgray;
+    border-radius: 15px;
 }
 footer p{
     text-align: center;
     font-size: 25px;
+    color: black;
+    font-weight: bold;
 }
 #evszam{
     float: left;
@@ -69,12 +75,79 @@ footer p{
     float: right;
     padding-right: 8px;
 }
+#nev{
+    text-align: center;
+}
 @media screen and (max-width: 300px) {
     #evszam,#osztaly{
         float: none;
         display: block;
         padding: 0px;
     }
+}
+.kiskepek{
+    width: 100%;
+    margin: auto;
+    border-radius: 20%;
+    box-shadow: 3px 3px 6px black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#feher{
+    background-color: burlywood;
+}
+.link{
+    text-align: center;
+    color: black;
+    /*font-weight: bold;*/
+    text-decoration: none;
+}
+.link :hover{
+    background-color: brown;
+    border-radius: 15px;
+    color: black;
+    /*font-weight: bold;*/
+    box-shadow: 4px 4px 5px black;
+}
+p a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#myBtn {
+    position: fixed;
+    bottom: 10px;
+    float: right;
+    right: 18.5%;
+    left: 77.25%;
+    max-width: 30px;
+    width: 100%;
+    font-size: 12px;
+    border-color: rgba(85, 85, 85, 0.2);
+    background-color: rgb(100,100,100);
+    padding: .5px;
+    border-radius: 4px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+/*On Hover Color Change*/
+#myBtn:hover {
+    background-color: #7dbbf1;
+}
+.cim{
+    text-align: center;
+    color: black;
+    text-decoration: underline black;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.cim2{
+    color: black;
+    text-decoration: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .bekezdés{
     background-color: brown;
@@ -83,7 +156,8 @@ footer p{
  .cím{
      text-align: center;
      font-size:  60px;
-     color: antiquewhite;
+     color:black;
+     text-decoration: underline;
  }
  .csata{
      float: right;
@@ -95,6 +169,7 @@ footer p{
      text-align: left;
      font-size: 30px;
      color: antiquewhite;
+     text-decoration: underline;
  }
  .csakmate{
     float: right;
@@ -106,11 +181,13 @@ footer p{
     text-align: left;
     font-size: 30px;
     color: antiquewhite;
+    text-decoration: underline;
  }
  h4{
     text-align: left;
     font-size: 30px;
     color: antiquewhite;
+    text-decoration: underline;
  }
  .bors{
     float: right;
@@ -130,7 +207,8 @@ footer p{
  h5{
     text-align: left;
     font-size: 30px;
-    color: antiquewhite;
+    color: black;
+    text-decoration: underline;
  }
  .ul{
      color: brown;
@@ -141,7 +219,9 @@ footer p{
 h6{
    text-align: left;
    font-size: 30px;
-   color: antiquewhite;}
+   color: antiquewhite;
+   text-decoration: underline;
+}
 .andrás{
     float: right;
     height: 100px;

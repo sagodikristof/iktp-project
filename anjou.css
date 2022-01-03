@@ -1,0 +1,25 @@
+.cim{
+    text-align: center;
+    color: black;
+    text-decoration: underline black;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#regale{
+    color: black;
+    font-weight: bolder;
+}
+.kep{
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid black;
+}
+.hatter{
+        background-color: blanchedalmond;
+        color: black;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 400;
+        border: 5px solid black;
+}

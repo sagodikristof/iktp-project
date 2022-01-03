@@ -9,6 +9,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
         <title>Anjou Károly</title>
         <link rel="stylesheet" href="stlye.css">
+        <link rel="stlyesheet" href="teszt.css">
     </head>
     <body>
         <div class="container">
@@ -26,23 +27,119 @@
                     <li><a href="teszt.html" class="oldal">Teszt</a></li>
                 </ul>
             </nav>
+            <h1 class="cim"> 
+                Teszt  
+            </h1>
+            <form class="form">
+                <fieldset class="fieldset">
+                    <legend class="legend">
+                        Személyes adatok
+                    </legend>
+                    <p>
+                        <label>Vezetéknév:</label>
+                        <input type="text" placeholder="PL: Kovács">
+                    </p>
+                    <p>
+                        <label>Keresztnév:</label>
+                        <input type="text" placeholder="PL: János">
+                    </p>
+                </fieldset>
+                <fieldset>
+
+                </fieldset>
+                <fieldset>
+                    <legend class="legend">
+                        Használd a tudásod!
+                    </legend>
+                    <legend class="legend">
+                        Melyik uralkodó család kihalását követően tört trónra az Anjou ház?
+                    </legend>
+                        Luxemburgi <input type="checkbox"><br>
+                        Árpád<input type="checkbox"><br>
+                        Hunyadi<input type="checkbox"><br>
+                        Jagelló<input type="checkbox"><br>
+                    <legend class="legend">
+                        Mikor volt a rozgonyi csata?
+                    </legend>
+                        1315<input type="checkbox"><br>
+                        1348<input type="checkbox"><br>
+                        1312<input type="checkbox"><br>
+                        1325<input type="checkbox"><br>
+                    <legend class="legend">
+                        Kik a bárók?
+                    </legend>
+                    <textarea>
+                        Bárók:
+                    </textarea><br>
+                    <legend class="legend">
+                        Honnan származik az Anjou ház?
+                    </legend>
+                    Franciaország<input type="checkbox"><br>
+                    Finnország<input type="checkbox"><br>
+                    Anglia<input type="checkbox"><br>
+                    Spanyolrszág<input type="checkbox"><br>
+                    <legend class="legend">
+                        Mikor született Károly Róbert?
+                    </legend>
+                    1295<input type="checkbox"><br>
+                    1289<input type="checkbox"><br>
+                    1288<input type="checkbox"><br>
+                    1275<input type="checkbox"><br>
+                    <legend class="legend">
+                        Mikor halt meg Károly Róbert?
+                    </legend>
+                    1342<input type="checkbox"><br>
+                    1343<input type="checkbox"><br>
+                    1344<input type="checkbox"><br>
+                    1341<input type="checkbox"><br>
+
+                    Mennyire tetszik az oldal? (az 5 a maximum)<br>
+                    1<input type="radio" name="skala">
+                    2<input type="radio" name="skala">
+                    3<input type="radio" name="skala">
+                    4<input type="radio" name="skala">
+                    5<input type="radio" name="skala"><br>
+                    Kinek ajánlod az oldalt?<br>
+                    <select>
+                        <option>Tanárodnak</option>
+                        <option>Testvérednek</option>
+                        <option>Barátodnak</option>
+                        <option>Szüleidnek</option>
+                        <option>Ismerősnek</option>
+                    </select>
+                    <br>
+                    <label>Fejtse ki a véleményét az oldalról</label><br>
+                    <textarea>
+                        Véleményem az oldalról...
+                    </textarea>
+                </fieldset>
+                <button>OK</button>
+                <input type="reset" value="Újra">
+            </form>
         </div>
         <div class="container">
             <form>
                 <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Email cím amelyen értesíteni tudunk:</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                <div id="emailHelp" class="form-text">Az adataihoz kiárólag mi férünk hozzá.</div>
+                    <label for="exampleInputEmail1" class="form-label">Email cím amelyen értesíteni tudunk:</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">Az adataihoz kizárólag mi férünk hozzá.</div>
                 </div>
                 <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Jelszó:</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
+                    <label for="inputPassword5" class="form-label">Jelszó:</label>
+                    <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+                <div id="passwordHelpBlock" class="form-text">
+                     A jelszavadnak 8-20 karakternek kell lenni, amely tartalmaz kis- és nagybetűt,számot valamint speciális karaktert. 
+                </div>
                 </div>
                 <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Jegyezze meg.</label>
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Jegyezze meg.</label>
                 </div>
-                <button type="submit" class="btn btn-primary">Megerősítés.</button>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1" title="A hírlevélre feliratkozva értesítést küldünk ha új TESZT kerül fel az oldalra.">Feliratkozom a hírlevélre.</label>
+                </div>
+                <button type="submit" class="btn btn-primary" title="Megerősítés.">Megerősítés.</button>
             </form>
         </div>
         <div class="container">
@@ -52,5 +149,6 @@
                 </p>
             </footer>
         </div>  
+        <button id="myBtn"><a href="#top" style="color: white">Fel.</a></button>
     </body>
 </html>

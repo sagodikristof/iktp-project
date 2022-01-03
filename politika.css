@@ -1,0 +1,54 @@
+#tartalom{
+    background-color: blanchedalmond;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    border: 5px solid black;
+}
+.adat{
+    display: list-item;
+}
+#banderium{
+    color: black;
+    font-weight: bolder;
+}
+#baro{
+    color: black;
+    font-weight: bolder;
+}
+#Karoly{
+    text-decoration: underline;
+    padding-left: 0px;
+    padding-right: 0px;
+    color: blue;
+    font-weight: bolder;
+}
+li a:hover{
+    border-radius: 300px;
+    box-shadow: 0px 0px 0px;
+    background-color: blanchedalmond;
+}
+#tartomany{
+    color: black;
+    font-weight: bolder;
+}
+#fami{
+    color: black;
+    font-weight: bolder;
+}
+.cim{
+    text-align: center;
+    color: black;
+    text-decoration: underline black;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 3px solid black;
+    border-radius: 4px;  
+}
+
